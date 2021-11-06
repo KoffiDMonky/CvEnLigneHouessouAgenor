@@ -1,0 +1,62 @@
+//Precommande
+
+#icoffee {
+    margin-top: 40px;
+}
+
+.antigravity {
+    margin: 0 auto 50px;
+    width: 100%;
+}
+
+.compteur {
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+.date {
+    font-family: Comfortaa, sans-serif;
+    font-size: 80px;
+    text-align: center;
+    margin: 5px 0;
+    color: $violet-principal;
+    // position: absolute;
+    // top: 450px;
+    align-items: center;
+    width: 100%;    
+
+}
+
+@media screen and (max-width: 630px) {
+    .date {
+        
+        font-size: 70px;
+    }
+    
+}
+
+@media screen and (max-width: 560px) {
+    .date {
+        
+        font-size: 55px;
+    }
+    
+}
+
+@media screen and (max-width: 440px) {
+    .date {
+        
+        font-size: 40px;
+    }
+    
+}
+
+@media screen and (max-width: 350px) {
+    .date {
+        
+        font-size: 35px;
+    }
+    #lancement {
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,15 @@
+.back h1
+{
+    font-size: 100px;
+    font-family: 'Zen Dots', cursive;
+    text-align: center;
+    margin: 0;
+    margin-top: 20px;
+    color: #FFF28C;
+}
+.back p
+{
+    text-align: center;
+    margin: 0;
+    color: #FFF28C;
+}

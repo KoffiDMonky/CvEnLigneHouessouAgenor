@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>BANANAS</title>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Roboto:wght@300&display=swap" rel="stylesheet"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <!-------------------------------------------------------- NAVIGATION---------------------------------------------------------------->
+
+    <nav>
+      <span class="logo-nav"><img src="ressources/banana black.png" alt="" class="logo-bananas"> BANANAS</span>
+      <ul>
+        <li><a href="./index.html">Pourquoi l'iCoffee ?</a></li>
+        <li><a href="./pages/fonctionnalites.html">Fonctionnalités</a></li>
+        <li><a href="./pages/tarifs.html">Tarifs</a></li>
+      </ul>
+      <a href="./pages/precommande.html" class="lien-essai">Précommande</a>
+      <button class="responsive-nav-btn">
+        <img src="ressources/menu.svg" alt="icone menu" />
+      </button>
+    </nav>
+
+    <!--------------------------------------------------------CONTAINER GLOBAL---------------------------------------------------------------->
+
+    <div class="container-global">
+      <!-------------------ACCUEIL------------------------>
+      <div class="accueil">
+        <h1 class="titre-global" id="icoffee">iCoffee</h1>
+        <h1 class="titre-global">Buvez sans limite.</h1>
+        <p class="sous-titre">Des fonctionnalités étonnantes et inédites.</p>
+        <img src="ressources/background-accueil.jpg" alt="iCoffee" />
+      </div>
+
+      <!-------------------SECTION RECOMMANDATIONS------------------------>
+
+      <div class="container-performances">
+        <h2 class="titre-global">Les 1ers avis</h2>
+        <hr class="separation" />
+        <div class="container-boxs">
+          <div class="box box-1">
+            <p class="nombre-clients">#<span class="count">128</span></p>
+            <p class="type-de-clients">Entreprises <br>satisfaites</p>
+            <p class="info-clients">+100% de productivités 
+              📈</p>
+          </div>
+          <div class="box box-2">
+            <p class="nombre-clients">#<span class="count">15</span></p>
+            <p class="type-de-clients"> Youtubeurs dont: <br><span id="youtubeur"></span>,</p>
+            <p class="info-clients">l'ont testé et approuvé ! 
+              ✔️ </p>
+          </div>
+          <div class="box box-3">
+            <p class="nombre-clients">#<span class="count">120</span>k</p>
+            <p class="type-de-clients">Étudiants <br>charmés</p>
+            <p class="info-clients">l'ont déjà adopté. 
+              ☕</p>
+          </div>
+        </div>
+      </div>
+
+      <!-------------------SECTION FAQ------------------------>
+
+      <h2 class="titre-global">Foire aux questions</h2>
+      <hr class="separation" />
+      <div class="container-faq">
+        <div class="questions">
+          <div class="panneau-visible">
+            <p class="titre-questions">Commande</p>
+            <img src="ressources/plus.svg" alt="croix animation" />
+          </div>
+          <div class="toggle-pannel">
+            <h4>Passer la commande</h4>
+            <p>
+              Vous n’arrivez pas à passer votre commande ? Suivez les différentes étapes ci-dessous pour votre
+commande.
+ 
+<br><br> Comment est-ce que je passe une commande :
+ 
+<br><br> 1.     Cherchez le produit que vous souhaitez acheter via nos pages de catégories en haut de la page ou en utilisant la fonction de recherche en haut à droite (cliquez d’abord sur la loupe).
+ 
+<br><br> 2.     Sélectionnez le produit et mettez-le dans votre panier, tous les prix sont TTC. Vous pouvez maintenant choisir de terminer votre commande directement ou de poursuivre vos achats. Vous avez fini vos achats ? Cliquez sur l’icône du panier dans le coin supérieur droit pour passer à la caisse.
+ 
+<br><br> 3.     Vérifiez votre commande dans le panier et terminez votre commande, avec ou sans compte Samsung. Durant la procédure de commande, vous indiquez vos coordonnées, l’endroit où vous souhaitez que le colis soit livré et le mode de paiement avec lequel vous souhaitez payer (iDeal, Carte de crédit, PayPal ou Klarna).
+ 
+<br><br> 4.     Dès que vous aurez terminé votre commande, vous recevrez de notre part une confirmation par mail. Ce mail reprend le détail ainsi que le numéro de votre commande.
+            </p>
+          </div>
+        </div>
+        <div class="questions">
+          <div class="panneau-visible">
+            <p class="titre-questions">Livraison et enlèvement</p>
+            <img src="ressources/plus.svg" alt="croix animation" />
+          </div>
+          <div class="toggle-pannel">
+            <h4>Frais de livraison</h4>
+            <p>
+              Sur Bananas.com, la livraison est toujours gratuite. Nous travaillons avec DPD pour les livraisons express de vos commandes.
+ 
+              <br><br>Vous attendez un gros colis ? Dans ce cas, celui-ci sera livré sur rendez-vous par DPD. À vous de préciser si vous désirez avoir recours à notre service d’installation premium gratuit ou si vous souhaitez juste que le produit vous soit livré.
+ 
+              <br><br>Pour fixer un rendez-vous de livraison, un e-mail vous sera envoyé. Il vous permettra d’indiquer le jour et le créneau horaire qui vous convient le mieux pour la livraison. Ce rendez-vous doit avoir lieu dans les quatre semaines suivant votre commande. Dans le cas contraire, votre commande sera annulée.
+            </p>
+          </div>
+        </div>
+        <div class="questions">
+          <div class="panneau-visible">
+            <p class="titre-questions">Garantie</p>
+            <img src="ressources/plus.svg" alt="croix animation" />
+          </div>
+          <div class="toggle-pannel">
+            <h4>Produit cassé ou endommagé</h4>
+            <p>
+              Vous voulez que votre iCoffee Bananas soit réparé rapidement et avec expertise ? Nos techniciens Bananas réparent vos appareils selon un standard de qualité très élevé, avec des pièces Bananas certifiées. Retrouvez ici plus d’informations au sujet de la procédure, de ses différentes étapes et d’éventuels frais. Notre service express peut ainsi collecter votre iCoffee chez vous et vous le livrer à la même adresse une fois réparé.
+            </p>
+          </div>
+        </div>
+        <div class="questions">
+          <div class="panneau-visible">
+            <p class="titre-questions">Service de réparation</p>
+            <img src="ressources/plus.svg" alt="croix animation" />
+          </div>
+          <div class="toggle-pannel">
+            <h4>Assistance produit</h4>
+            <p>
+              Votre iCoffee Bannas ne fonctionne plus correctement et vous aimeriez le faire réparer dès que possible? Nous sommes là pour toutes vos réparations, qu’elles tombent sous la garantie ou non. Nous réparons vos appareils selon des standards de qualité très élevés et avec des pièces originales. Vous conservez donc la garantie d’usine et bénéficiez de trois mois de garantie sur les réparations effectuées. Vérifiez via notre module d’aide en ligne si une réparation est absolument nécessaire. Vous pouvez ensuite déposer votre iCoffee dans un de nos centres de service ou le faire enlever directement chez vous par un de nos livreurs.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-------------------APPEL à L'ACTION------------------------>
+
+      <div class="container-cta">
+        <h2 class="titre-global">30 jours satisfaits ou satisfaits</h2>
+        <p class="txt-cta">
+          En bref dans tous les cas vous serez satisfait !
+        </p>
+        <a href="./pages/precommande.html" class="btn-appel">Précommander</a>
+      </div>
+    </div>
+
+    <!-------------------FOOTER------------------------>
+
+    <footer>
+      <div class="bloc footer-medias">
+        <h3>Nos réseaux</h3>
+        <ul class="liste-media">
+          <li>
+            <a href="#">
+              <img src="ressources/facebook.svg" alt="icone réseaux sociaux">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="ressources/insta.svg" alt="icone réseaux sociaux">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="ressources/twitter.svg" alt="icone réseaux sociaux">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="ressources/globe-internet.svg" alt="icone réseaux sociaux">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="ressources/linkedin.svg" alt="icone réseaux sociaux">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <p>55-55-55-55-55</p>
+      <p>supportclient@bananas.com</p>
+      <p>6 rue de l'invention, Cupertino - Californie</p>
+      <hr>
+      <p>Copyright © 2021. Tous droits réservés. Site vitrine réalisé pour le portfolio d'Agénor Houessou.</p>
+    </footer>
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="scripts/app.js"></script>
+  </body>
+</html>

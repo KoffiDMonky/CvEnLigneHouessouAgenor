@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+h1{
+    position: relative;
+    text-align: center;
+    margin: 10px;
+    font-size: 200px;
+    z-index: 1000;
+    background: -webkit-linear-gradient(30deg, #FA3201, #FA32FA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+@media screen and (max-width: 1030px) {
+    h1 {
+        font-size: 150px;
+    }  
+}
+@media screen and (max-width: 770px) {
+    h1 {
+        font-size: 100px;
+    }  
+}
+@media screen and (max-width: 525px) {
+    h1 {
+        font-size: 70px;
+        margin-top: 50px;
+    }  
+}
+@media screen and (max-width: 380px) {
+    h1 {
+        line-height: 1;
+        margin-top: 80px;
+    }  
+}
+h4{
+    position: relative;
+    color: #f1f1f1;
+    display: flex;
+    margin: 20px auto;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+audio {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1001;
+}
+@media screen and (max-height: 680px) {
+    audio {
+        top: 60%
+    }  
+}
+@media screen and (max-height: 620px) {
+    audio {
+        top: 65%
+    }  
+}
+@media screen and (max-height: 575px) {
+    audio {
+        top: 70%
+    }  
+}
+#canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: #000;
+}
